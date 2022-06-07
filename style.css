@@ -19,7 +19,7 @@ td {
   padding: 0.5em;
   cursor: pointer;
   margin-right: 2em;
-  margin-top:30px;
+  margin-top: 30px;
   /* float: right */
 }
 #score1,
@@ -31,6 +31,7 @@ td {
   border-radius: 12px;
   width: 25vw;
   margin-left: 2em;
+  margin-bottom: 5px;
   font-size: 1.1rem;
   padding: 0.7em;
   text-align: center;

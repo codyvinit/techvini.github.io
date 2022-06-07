@@ -1,5 +1,5 @@
 'use strict';
-// alert('Don\'t refresh otherwise you will loose progress');
+alert("Don't refresh otherwise you will loose progress !");
 const score = document.getElementById('score');
 const score1 = document.getElementById('score1');
 const score2 = document.getElementById('score2');

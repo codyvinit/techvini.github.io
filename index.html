@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Deha Prakriti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <table>
+    <tr style="background-color: rgb(255, 139, 139); font-weight: bold;">
+      <td>S.</td>
+      <td>Particulars To Examine</td>
+      <td>Vatika</td>
+      <td>Paittika</td>
+      <td>Kaphaj</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="4" style="background-color: rgb(199, 255, 139); font-weight: bold;">PHYSICAL</td>
+    </tr>
+    <!-- ?1 -->
+    <tr>
+      <td>1</td>
+      <td>General Body Built</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a1" value="0.33333333334">
+        <label for="a1">Lean</label><br>
+        <input class="vatika" type="checkbox" id="b1" value="0.33333333334">
+        <label for="b1">Tall</label><br>
+        <input class="vatika" type="checkbox" id="c1" value="0.33333333334">
+        <label for="c1">Bony</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa1" value="1">
+        <label for="pa1">Medium</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka1" value="1">
+        <label for="ka1">Hefty, Muscular</label><br>
+      </td>
+    </tr>
+    <!-- ?2 -->
+    <tr>
+      <td>2</td>
+      <td>Skin complexion and texture</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a2" value="0.25">
+        <label for="a2">Dusky & Dark</label><br>
+        <input class="vatika" type="checkbox" id="b2" value="0.25">
+        <label for="b2">Dry & Rough</label><br>
+        <input class="vatika" type="checkbox" id="c2" value="0.25">
+        <label for="c2">Cracked Hand Foot</label><br>
+        <input class="vatika" type="checkbox" id="d2" value="0.25">
+        <label for="d2">Cold with dryness</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa2" value="0.33333333334">
+        <label for="pa2">Fair</label><br>
+        <input class="paittika" type="checkbox" id="pb2" value="0.33333333334">
+        <label for="pb2">Soft, supple</label><br>
+        <input class="paittika" type="checkbox" id="pc2" value="0.33333333334">
+        <label for="pc2">Warm</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka2" value="0.33333333334">
+        <label for="ka2">Fair</label><br>
+        <input class="kaphaj" type="checkbox" id="kb2" value="0.33333333334">
+        <label for="kb2">Soft, smooth, tight glossy</label><br>
+        <input class="kaphaj" type="checkbox" id="kc2" value="0.33333333334">
+        <label for="kc2">Cold without dryness</label><br>
+      </td>
+    </tr>
+    <!-- ?3 -->
+    <tr>
+      <td>3</td>
+      <td>Prominence of veins and tendons</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a3" value="1">
+        <label for="a3">Prominent, reticulated</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa3" value="1">
+        <label for="pa3">Less Prominent</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka3" value="1">
+        <label for="ka3">Not at all visible, deep seated</label><br>
+      </td>
+    </tr>
+    <!-- ?4 -->
+    <tr>
+      <td>4</td>
+      <td>Joints</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a4" value="1">
+        <label for="a4">Prominent</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa4" value="1">
+        <label for="pa4">Less Prominent</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka4" value="1">
+        <label for="ka4">Well covered with muscles</label><br>
+      </td>
+    </tr>
+    <!-- ?5 -->
+    <tr>
+      <td>5</td>
+      <td>Chest</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a5" value="1">
+        <label for="a5">Thin, narrow</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa5" value="1">
+        <label for="pa5">Medium</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka5" value="1">
+        <label for="ka5">Wide, strong, well covered with muscles</label><br>
+      </td>
+    </tr>
+    <!-- ?6 -->
+    <tr>
+      <td>6</td>
+      <td>Face</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a6" value="0.33333333334">
+        <label for="a6">Small forehead</label><br>
+        <input class="vatika" type="checkbox" id="b6" value="0.33333333334">
+        <label for="b6">Dark tinge</label><br>
+        <input class="vatika" type="checkbox" id="c6" value="0.33333333334">
+        <label for="c6">Rough skin</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa6" value="0.33333333334">
+        <label for="pa6">Medium forehead</label><br>
+        <input class="paittika" type="checkbox" id="pb6" value="0.33333333334">
+        <label for="pb6">Copper colored skin</label><br>
+        <input class="paittika" type="checkbox" id="pc6" value="0.33333333334">
+        <label for="pc6">Plenty of pimples</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka6" value="0.33333333334">
+        <label for="ka6">Large forehead</label><br>
+        <input class="kaphaj" type="checkbox" id="kb6" value="0.33333333334">
+        <label for="kb6">Bright</label><br>
+        <input class="kaphaj" type="checkbox" id="kc6" value="0.33333333334">
+        <label for="kc6">Good looking face</label><br>
+      </td>
+    </tr>
+    <!-- ?7 -->
+    <tr>
+      <td>7</td>
+      <td>Eyes</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a7" value="0.33333333334">
+        <label for="a7">Round</label><br>
+        <input class="vatika" type="checkbox" id="b7" value="0.33333333334">
+        <label for="b7">Dull & Dusky, lusterless</label><br>
+        <input class="vatika" type="checkbox" id="c7" value="0.33333333334">
+        <label for="c7">Remain half open during sleep</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa7" value="0.33333333334">
+        <label for="pa7">Narrow fissured eyes</label><br>
+        <input class="paittika" type="checkbox" id="pb7" value="0.33333333334">
+        <label for="pb7">Eyelashes brown copper colored</label><br>
+        <input class="paittika" type="checkbox" id="pc7" value="0.33333333334">
+        <label for="pc7">Eyes readily congested under effect of alcohol, anger and sun rays</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka7" value="0.33333333334">
+        <label for="ka7">Large</label><br>
+        <input class="kaphaj" type="checkbox" id="kb7" value="0.33333333334">
+        <label for="kb7">White shining</label><br>
+        <input class="kaphaj" type="checkbox" id="kc7" value="0.33333333334">
+        <label for="kc7">Eyelashes black and thick</label><br>
+      </td>
+    </tr>
+    <!-- ?8 -->
+    <tr>
+      <td>8</td>
+      <td>Body Hair</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a8" value="1">
+        <label for="a8">Scanty</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa8" value="0.33333333334">
+        <label for="pa8">Soft</label><br>
+        <input class="paittika" type="checkbox" id="pb8" value="0.33333333334">
+        <label for="pb8">Few</label><br>
+        <input class="paittika" type="checkbox" id="pc8" value="0.33333333334">
+        <label for="pc8">Brownish</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka8" value="0.33333333334">
+        <label for="ka8">Thick, long</label><br>
+        <input class="kaphaj" type="checkbox" id="kb8" value="0.33333333334">
+        <label for="kb8">Dark</label><br>
+        <input class="kaphaj" type="checkbox" id="kc8" value="0.33333333334">
+        <label for="kc8">Plenty</label><br>
+      </td>
+    </tr>
+    <!-- ?9 -->
+    <tr>
+      <td>9</td>
+      <td>Hair on Scalp</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a9" value="0.2">
+        <label for="a9">Less</label><br>
+        <input class="vatika" type="checkbox" id="b9" value="0.2">
+        <label for="b9">Dry</label><br>
+        <input class="vatika" type="checkbox" id="c9" value="0.2">
+        <label for="c9">Rough</label><br>
+        <input class="vatika" type="checkbox" id="d9" value="0.2">
+        <label for="d9">Brown</label><br>
+        <input class="vatika" type="checkbox" id="e9" value="0.2">
+        <label for="e9">Split in hairs</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa9" value="0.2">
+        <label for="pa9">Less</label><br>
+        <input class="paittika" type="checkbox" id="pb9" value="0.2">
+        <label for="pb9">Soft</label><br>
+        <input class="paittika" type="checkbox" id="pc9" value="0.2">
+        <label for="pc9">Golden</label><br>
+        <input class="paittika" type="checkbox" id="pd9" value="0.2">
+        <label for="pd9">Tendency to early baldness</label><br>
+        <input class="paittika" type="checkbox" id="pe9" value="0.2">
+        <label for="pe9">Premature graying of hairs</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka9" value="0.2">
+        <label for="ka9">Plenty</label><br>
+        <input class="kaphaj" type="checkbox" id="kb9" value="0.2">
+        <label for="kb9">Thick</label><br>
+        <input class="kaphaj" type="checkbox" id="kc9" value="0.2">
+        <label for="kc9">Dark</label><br>
+        <input class="kaphaj" type="checkbox" id="kd9" value="0.2">
+        <label for="kd9">Curly/Long</label><br>
+        <input class="kaphaj" type="checkbox" id="ke9" value="0.2">
+        <label for="ke9">Glossy</label><br>
+      </td>
+    </tr>
+    <!-- ?10 -->
+    <tr>
+      <td>10</td>
+      <td>Moles</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a10" value="1">
+        <label for="a10">No moles</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa10" value="1">
+        <label for="pa10">Excess</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka10" value="1">
+        <label for="ka10">Few</label><br>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="4" style="background-color: rgb(199, 255, 139); font-weight: bold;">PHYSIOLOGICAL</td>
+    </tr>
+    <!-- ?1 -->
+    <tr>
+      <td>1</td>
+      <td>Body temp.</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a1x" value="1">
+        <label for="a1x">Slightly less than normal</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa1x" value="1">
+        <label for="pa1x">Slightly above the normal</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka1x" value="1">
+        <label for="ka1x">Normal</label><br>
+      </td>
+    </tr>
+    <!-- ?2 -->
+    <tr>
+      <td>2</td>
+      <td>Perspiration</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a2x" value="1">
+        <label for="a2x">Seldom</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa2x" value="1">
+        <label for="pa2x">Profuse sweating foul body odor</label><br>
+
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka2x" value="1">
+        <label for="ka2x">Moderate</label><br>
+      </td>
+    </tr>
+    <!-- ?3 -->
+    <tr>
+      <td>3</td>
+      <td>Digestive power</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a3x" value="1">
+        <label for="a3x">Irregular</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa3x" value="1">
+        <label for="pa3x">Very Powerful</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka3x" value="1">
+        <label for="ka3x">Normal</label><br>
+      </td>
+    </tr>
+    <!-- ?4 -->
+    <tr>
+      <td>4</td>
+      <td>Ability to bear hunger</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a4x" value="1">
+        <label for="a4x">Irregular</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa4x" value="1">
+        <label for="pa4x">Poor</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka4x" value="1">
+        <label for="ka4x">Very Good</label><br>
+      </td>
+    </tr>
+    <!-- ?5 -->
+    <tr>
+      <td>5</td>
+      <td>Thirst</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a5x" value="1">
+        <label for="a5x">Irregular</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa5x" value="1">
+        <label for="pa5x">Frequently</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka5x" value="1">
+        <label for="ka5x">Seldom</label><br>
+      </td>
+    </tr>
+    <!-- ?6 -->
+    <tr>
+      <td>6</td>
+      <td>Quantity of food</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a6x" value="1">
+        <label for="a6x">Sometimes large, sometimes poor</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa6x" value="1">
+        <label for="pa6x">Always large</label><br>
+
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka6x" value="1">
+        <label for="ka6x">Normal/less</label><br>
+
+      </td>
+    </tr>
+    <!-- ?7 -->
+    <tr>
+      <td rowspan="2">7</td>
+      <td><b>a.</b> Kind of food</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a7ax" value="0.25">
+        <label for="a7ax">Warm foods</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa7ax" value="0.25">
+        <label for="pa7ax">Cold foods</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka7ax" value="0.2">
+        <label for="ka7ax">Warm</label><br>
+      </td>
+    <tr>
+      <td><b>b.</b> Group of taste desired</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a7bx" value="0.25">
+        <label for="a7bx">Sweet</label><br>
+        <input class="vatika" type="checkbox" id="b7bx" value="0.25">
+        <label for="b7bx">Sour</label><br>
+        <input class="vatika" type="checkbox" id="c7bx" value="0.25">
+        <label for="c7bx">Salty</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa7bx" value="0.25">
+        <label for="pa7bx">Sweet</label><br>
+        <input class="paittika" type="checkbox" id="pb7bx" value="0.25">
+        <label for="pb7bx">Bitter</label><br>
+        <input class="paittika" type="checkbox" id="pc7bx" value="0.25">
+        <label for="pc7bx">Astringent</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka7bx" value="0.20">
+        <label for="ka7bx">Dry foods</label><br>
+        <input class="kaphaj" type="checkbox" id="kb7bx" value="0.20">
+        <label for="kb7bx">Pungent</label><br>
+        <input class="kaphaj" type="checkbox" id="kc7bx" value="0.20">
+        <label for="kc7bx">Bitter</label><br>
+        <input class="kaphaj" type="checkbox" id="kd7bx" value="0.20">
+        <label for="kd7bx">Astringent</label><br>
+      </td>
+    </tr>
+    </tr>
+    <!-- ?8 -->
+    <tr>
+      <td>8</td>
+      <td>Bowel movements</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a8x" value="1">
+        <label for="a8x">Irregular/frequently constipated</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa8x" value="1">
+        <label for="pa8x">Loose stools</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka8x" value="1">
+        <label for="ka8x">Regular, well formed stool</label><br>
+      </td>
+    </tr>
+    <!-- ?9 -->
+    <tr>
+      <td>9</td>
+      <td>Walk</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a9x" value="1">
+        <label for="a9x">Quick with swift movements</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa9x" value="1">
+        <label for="pa9x">Normal</label><br>
+
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka9x" value="1">
+        <label for="ka9x">Slow & steady gait</label><br>
+
+      </td>
+    </tr>
+    <!-- ?10 -->
+    <tr>
+      <td>10</td>
+      <td>Body strength</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a10x" value="1">
+        <label for="a10x">Weak</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa10x" value="1">
+        <label for="pa10x">Moderate</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka10x" value="1">
+        <label for="ka10x">Strong</label><br>
+      </td>
+    </tr>
+    <!-- ?11 -->
+    <tr>
+      <td>11</td>
+      <td>Tolerance to heat</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a11x" value="1">
+        <label for="a11x">Maximum</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa11x" value="1">
+        <label for="pa11x">Minimum</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka11x" value="1">
+        <label for="ka11x">Moderate</label><br>
+      </td>
+    </tr>
+    <!-- ?12 -->
+    <tr>
+      <td>12</td>
+      <td>Moles</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a12y" value="1">
+        <label for="a12x">Minimum</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa12x" value="1">
+        <label for="pa12x">Maximum</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka12x" value="1">
+        <label for="ka12x">Moderate</label><br>
+      </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="4" style="background-color: rgb(199, 255, 139); font-weight: bold;">PSYCHOLOGICAL</td>
+    </tr>
+    <!-- ?1 -->
+    <tr>
+      <td>1</td>
+      <td>Temperament</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a1y" value="1">
+        <label for="a1y">Nervous & fearful</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa1y" value="1">
+        <label for="pa1y">Irritable & Impatient</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka1y" value="1">
+        <label for="ka1y">Easy going patience</label><br>
+      </td>
+    </tr>
+    <!-- ?2 -->
+    <tr>
+      <td>2</td>
+      <td>Attitude towards problems/Difficulties</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a2y" value="0.5">
+        <label for="a2y">Lot pf worrying</label><br>
+        <input class="vatika" type="checkbox" id="b2y" value="0.5">
+        <label for="b2y">Instability</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa2y" value="0.33333333334">
+        <label for="pa2y">Angry</label><br>
+        <input class="paittika" type="checkbox" id="pb2y" value="0.33333333334">
+        <label for="pb2y">Easily provoked</label><br>
+        <input class="paittika" type="checkbox" id="pc2y" value="0.33333333334">
+        <label for="pc2y">Highly irritable</label><br>
+
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka2y" value="0.33333333334">
+        <label for="ka2y">Peaceful</label><br>
+        <input class="kaphaj" type="checkbox" id="kb2y" value="0.33333333334">
+        <label for="kb2y">Slow</label><br>
+        <input class="kaphaj" type="checkbox" id="kc2y" value="0.33333333334">
+        <label for="kc2y">Steady</label><br>
+      </td>
+    </tr>
+    <!-- ?3 -->
+    <tr>
+      <td>3</td>
+      <td>Performance of activities</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a3y" value="1">
+        <label for="a3y">Quickly with a lot of initiative</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa3y" value="1">
+        <label for="pa3y">Moderate</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka3y" value="1">
+        <label for="ka3y">Very slowly</label><br>
+      </td>
+    </tr>
+    <!-- ?4 -->
+    <tr>
+      <td>4</td>
+      <td>Grasping Power</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a4y" value="1">
+        <label for="a4y">Quick</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa4y" value="1">
+        <label for="pa4y">Medium</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka4y" value="1">
+        <label for="ka4y">Slow</label><br>
+      </td>
+    </tr>
+    <!-- ?5 -->
+    <tr>
+      <td>5</td>
+      <td>Memory</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a5y" value="1">
+        <label for="a5y">Poor/Short</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa5y" value="1">
+        <label for="pa5y">Medium</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka5y" value="1">
+        <label for="ka5y">Good/Long</label><br>
+      </td>
+    </tr>
+    <!-- ?6 -->
+    <tr>
+      <td>6</td>
+      <td>Sleep</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a6y" value="1">
+        <label for="a6y">Less/Interrupted</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa6y" value="1">
+        <label for="pa6y">Moderate</label><br>
+
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka6y" value="1">
+        <label for="ka6y">Excessive/Deep sleep</label><br>
+
+      </td>
+    </tr>
+    <!-- ?7 -->
+    <tr>
+      <td>7</td>
+      <td>Dream</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a7y" value="1">
+        <label for="a7y">Flying, jumping Climbing like other activities</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa7y" value="1">
+        <label for="pa7y">Violence Fire, seeing of burning objects</label><br>
+        <!-- <input class="paittika" type="checkbox" id="pb7y" value="0.33333333334">
+        <label for="pb7y">Bitter</label><br>
+        <input class="paittika" type="checkbox" id="pc7y" value="0.33333333334">
+        <label for="pc7y">Astringent</label><br> -->
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka7y" value="1">
+        <label for="ka7y">Water bodies/Clouds/Romantic</label><br>
+        <!-- <input class="kaphaj" type="checkbox" id="kb7y" value="0.25">
+        <label for="kb7y">Pungent</label><br>
+        <input class="kaphaj" type="checkbox" id="kc7y" value="0.25">
+        <label for="kc7y">Bitter</label><br>
+        <input class="kaphaj" type="checkbox" id="kd7y" value="0.25">
+        <label for="kd7y">Astringent</label><br> -->
+      </td>
+    </tr>
+    </tr>
+    <!-- ?8 -->
+    <tr>
+      <td>8</td>
+      <td>Courage & Boldness</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a8y" value="1">
+        <label for="a8y">Minimum</label><br>
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa8y" value="1">
+        <label for="pa8y">Maximum</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka8y" value="1">
+        <label for="ka8y">Moderate</label><br>
+      </td>
+    </tr>
+    <!-- ?9 -->
+    <tr>
+      <td>9</td>
+      <td>Belief in God</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a9y" value="1">
+        <label for="a9y">Less</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa9y" value="1">
+        <label for="pa9y">Moderate</label><br>
+
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka9y" value="1">
+        <label for="ka9y">Profound</label><br>
+
+      </td>
+    </tr>
+    <!-- ?10 -->
+    <tr>
+      <td>10</td>
+      <td>Talking habit & voice</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a10y" value="0.33333333334">
+        <label for="a10y">Very fast</label><br>
+        <input class="vatika" type="checkbox" id="b10y" value="0.33333333334">
+        <label for="b10y">Excessive talking</label><br>
+        <input class="vatika" type="checkbox" id="c10y" value="0.33333333334">
+        <label for="c10y">Stammering, weak voice</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa10y" value="0.33333333334">
+        <label for="pa10y">Moderate</label><br>
+        <input class="paittika" type="checkbox" id="pb10y" value="0.33333333334">
+        <label for="pb10y">Sharp & hard voice</label><br>
+        <input class="paittika" type="checkbox" id="pc10y" value="0.33333333334">
+        <label for="pc10y">Argues</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka10y" value="0.33333333334">
+        <label for="ka10y">Slow, resonant</label><br>
+        <input class="kaphaj" type="checkbox" id="kb10y" value="0.33333333334">
+        <label for="kb10y">Clear, soft voice</label><br>
+        <input class="kaphaj" type="checkbox" id="kc10y" value="0.33333333334">
+        <label for="kc10y">Balanced spoken</label><br>
+      </td>
+    </tr>
+    <!-- ?11 -->
+    <tr>
+      <td>11</td>
+      <td>Will power</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a11y" value="1">
+        <label for="a11y">Least</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa11y" value="1">
+        <label for="pa11y">Medium</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka11y" value="1">
+        <label for="ka11y">Maximum</label><br>
+      </td>
+    </tr>
+    <!-- ?12 -->
+    <tr>
+      <td>12</td>
+      <td>Tolerance</td>
+      <td>
+        <input class="vatika" type="checkbox" id="a12y" value="1">
+        <label for="a12y">Least</label><br>
+
+      </td>
+      <td>
+        <input class="paittika" type="checkbox" id="pa12y" value="1">
+        <label for="pa12y">Medium</label><br>
+      </td>
+      <td>
+        <input class="kaphaj" type="checkbox" id="ka12y" value="1">
+        <label for="ka12y">Maximum</label><br>
+      </td>
+    </tr>
+  </table>
+
+  <p id="score">Score</p>
+  <p id="score1">Vatika Score</p>
+  <p id="score2">Paittika Score</p>
+  <p id="score3">Kaphaj Score</p>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

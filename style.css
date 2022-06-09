@@ -1,7 +1,12 @@
 html {
   scroll-behavior: smooth;
 }
-
+.bname {
+  color: red;
+  /* font-family:monospace; */
+  font-style: italic;
+  margin-right: 2px;
+}
 li {
   margin-bottom: 15px;
   font-weight: bold;
